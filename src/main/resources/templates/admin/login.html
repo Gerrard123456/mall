@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.com">
 <head>
     <meta charset="UTF-8">
-    <title>后台登录</title>
+    <title>Back-end Login</title>
     <link rel="stylesheet" type="text/css" href="/css/admin.css">
 </head>
 <body>
@@ -17,14 +17,14 @@
         <table>
 
             <tr>
-                <td>用户名</td>
+                <td>Username</td>
                 <td>
                     <input type="text" name="userName" required="required">
                 </td>
             </tr>
 
             <tr>
-                <td>密码</td>
+                <td>Password</td>
                 <td>
                     <input type="password" name="password" required="required">
                 </td>
@@ -33,7 +33,7 @@
             <tr>
                 <td></td>
                 <td>
-                    <input type="submit" value="登录">
+                    <input type="submit" value="Login">
                     <div th:text="${err}" style="color:red;"></div>
                 </td>
             </tr>

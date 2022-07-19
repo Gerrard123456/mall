@@ -18,6 +18,7 @@ public class AdminLoginController {
     //后台登陆页面的显示
     @RequestMapping("login_show")
     public String login_show(){
+        System.out.println("hello");
         return "/admin/login";
     }
 

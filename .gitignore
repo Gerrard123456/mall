@@ -9,7 +9,6 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 **/.DS_Store
-static/
 
 **/mvnw
 **/mvnw.cmd
